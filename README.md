@@ -37,7 +37,8 @@ You can easily display a fresh amazing wallpaper from
     0 12 * * * sh /directory_path/macos-amazing-wallpapers.sh
     ```
 
-    where `/directory_path/` identifies the path of the directory containing the script (to be configured as value of the `$DIR` directory on the script), while `00 12` specifies the program has to be called every day at noon
+    where `/directory_path/` identifies the path of the directory containing the script
+    and `0 12` specifies that the script will be called every day at noon
     
  5. Hit `:wq` to close, saving the file
  6. Check if the crontab is correct by running `crontab -l`
