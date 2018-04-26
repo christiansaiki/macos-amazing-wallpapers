@@ -5,7 +5,7 @@ You can easily display a fresh amazing wallpaper from
 [Unsplash](https://unsplash.com)
 
 ## Requirements
-1. Install jq 
+1. Install [jq](https://stedolan.github.io/jq/) 
 
     ```
     brew install jq
