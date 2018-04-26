@@ -38,7 +38,8 @@ You can easily display a fresh amazing wallpaper from
     ```
 
     where `/directory_path/` identifies the path of the directory containing the script
-    and `0 12` specifies that the script will be called every day at noon
+   
+    and `0 12 * * *` specifies that the script will be called every day at noon
     
  5. Hit `:wq` to close, saving the file
  6. Check if the crontab is correct by running `crontab -l`
