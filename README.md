@@ -7,7 +7,10 @@ You can easily display a fresh amazing wallpaper from
 ## Requirements
 1. Install jq 
 
-  `brew install jq`
+    ```
+    brew install jq
+    ```
+
 
 ## Installation
  1. Clone the repository:
